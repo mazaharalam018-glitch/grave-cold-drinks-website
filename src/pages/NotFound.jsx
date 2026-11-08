@@ -1,0 +1,1 @@
+import { Link } from 'react-router-dom';export default function NotFound(){return <main className="not-found"><span className="eyebrow">404 / OFF THE MAP</span><h1>Lost your<br/><i>way?</i></h1><Link className="btn btn-dark" to="/">Back to home ↗</Link></main>}
